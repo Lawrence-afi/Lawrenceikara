@@ -3,7 +3,7 @@
   margin: 0;
 }
 body{
-  
+  color: #333;
 }
 header{
   background-color: #F0EFEE;
@@ -23,7 +23,7 @@ header{
   width: 100%;
   margin: auto;
   text-align: center;
-  font-weight: 600;
+  font-weight: 600!important;
   padding: 10px 20px;
   font-size: 30px!important;
 }
@@ -112,7 +112,6 @@ nav ul li{
 .inter{
   font-family: "Inter", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 }
 .open-sans{
@@ -285,14 +284,16 @@ hr{
     width: 150px;
     text-align: center;
     padding: 10px;
-    /* text-align: center; */
-    /* padding: 20px 10px; */
-    /*border: 1px solid black;*/
     border-radius: 30px;
-    /*font-weight: bold;*/
     font-size: 16px;
   }
   .projects{
     padding: 100px 0;
+  }
+  .wid{
+    width: 200px;
+  }
+  .contact-me-section h2{
+    font-size: 50px!important;
   }
   }}
